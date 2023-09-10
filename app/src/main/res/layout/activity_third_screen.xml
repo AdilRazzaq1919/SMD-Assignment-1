@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spot_it"
+        android:id="@+id/image"
+        />
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="30sp"
+        android:layout_below="@+id/image"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="15sp"
+        android:layout_below="@+id/registration"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:layout_below="@+id/name"
+        android:background="@drawable/rectangle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:layout_below="@+id/nameText"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Email"
+        android:layout_below="@+id/email"
+        android:background="@drawable/rectangle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textSize="15sp"
+        android:layout_below="@+id/emailText"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/ContactText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Contact Number"
+        android:layout_below="@+id/Contact"
+        android:background="@drawable/rectangle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="15sp"
+        android:layout_below="@+id/ContactText"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/CountryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Country"
+        android:layout_below="@+id/Country"
+        android:background="@drawable/rectangle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textSize="15sp"
+        android:layout_below="@+id/CountryText"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/CityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select City"
+        android:layout_below="@+id/City"
+        android:background="@drawable/rectangle"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/CityText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/LoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>
