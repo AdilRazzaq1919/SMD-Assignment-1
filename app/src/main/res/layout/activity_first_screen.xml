@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FirstScreen">
+    tools:context=".FirstScreen"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,6 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:text="Email"
             android:textSize="18sp" />
 
@@ -44,6 +47,7 @@
             android:background="@drawable/rectangle"
             android:layout_marginTop="10dp"
             android:padding="10dp"
+            android:layout_marginLeft="10dp"
             android:text="Enter Email"
             android:textSize="18sp" />
 
@@ -52,7 +56,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Password"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -61,7 +66,8 @@
             android:background="@drawable/rectangle"
             android:padding="10dp"
             android:text="Enter Password"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,7 +82,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button"
+            android:backgroundTint="#FF9800"
             android:text="Login"
             android:textStyle="bold"
             android:textSize="20sp"

@@ -257,7 +257,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="30dp"
-            android:background="@drawable/circlenumber"
             android:gravity="center"
             android:text="⌫"
             android:textStyle="bold"
