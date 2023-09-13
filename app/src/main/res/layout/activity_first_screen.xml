@@ -70,6 +70,7 @@
             android:layout_marginLeft="10dp"/>
 
         <TextView
+            android:id="@+id/forgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Forgot Your Password?"
@@ -90,6 +91,7 @@
             android:layout_marginBottom="16dp" />
 
         <TextView
+            android:id="@+id/signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
