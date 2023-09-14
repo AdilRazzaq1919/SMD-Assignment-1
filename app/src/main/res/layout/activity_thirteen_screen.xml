@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirteenScreen">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#918F8F"
+        android:layout_below="@id/toolbar"
+        />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backarrow"
+        android:contentDescription="Back"
+        android:layout_gravity="start"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="20sp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        />
+
+    <TextView
+        android:id="@+id/reportText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textSize="18dp"
+        android:textColor="#ff9800"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewEnd"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/nametextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+
+        android:id="@+id/daud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daud"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/nametextview"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/daud"
+        android:layout_marginTop="15dp"
+        android:text="Email"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+
+        android:id="@+id/daudgmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="daud@gmail.com"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/email"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/daudgmail"
+        android:layout_marginTop="15dp"
+        android:text="Contact Number"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+
+    <EditText
+
+        android:id="@+id/phonetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0310-5725515"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/phone"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/Country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonetext"
+        android:layout_marginTop="15dp"
+        android:text="Country"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+
+        android:id="@+id/pakistan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pakistan"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/Country"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pakistan"
+        android:layout_marginTop="15dp"
+        android:text="City"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <EditText
+
+        android:id="@+id/citytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Islamabad"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/City"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+</RelativeLayout>

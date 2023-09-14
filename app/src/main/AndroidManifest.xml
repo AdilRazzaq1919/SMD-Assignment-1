@@ -13,24 +13,26 @@
         android:theme="@style/Theme.I201868"
         tools:targetApi="31">
         <activity
-            android:name=".TwelvethScreen"
+            android:name=".ThirteenScreen"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+        </activity>
+        <activity
+            android:name=".TwelvethScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".EleventhScreen"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".TenthScreen"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".EighteenScreen"
             android:exported="true" />
@@ -68,12 +70,12 @@
         <activity
             android:name=".FirstScreen"
             android:exported="true"
-            android:screenOrientation="portrait" >
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
