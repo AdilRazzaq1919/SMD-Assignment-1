@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourteenScreen">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#918F8F"
+        android:layout_below="@id/toolbar"
+        />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backarrow"
+        android:contentDescription="Back"
+        android:layout_gravity="start"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        />
+
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason for Reporting"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/toolbar"
+        />
+
+    <EditText
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/enterReason"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Enter reason here"
+        android:background="@drawable/rectangle"
+        android:layout_below="@id/reason"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Submit Report"
+        android:textSize="20sp"
+        android:backgroundTint="#ff9800"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+
+</RelativeLayout>
