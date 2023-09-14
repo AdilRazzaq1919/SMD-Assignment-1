@@ -17,8 +17,8 @@ public class ThirdScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third_screen);
-        login.findViewById(R.id.LoginText);
-        signUp.findViewById(R.id.SignUp);
+        login=findViewById(R.id.LoginText);
+        signUp=findViewById(R.id.SignUp);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +31,7 @@ public class ThirdScreen extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ThirdScreen.this, FirstScreen.class);
+                Intent intent = new Intent(ThirdScreen.this, FifthScreen.class);
                 startActivity(intent);
             }
         });
