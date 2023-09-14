@@ -520,11 +520,11 @@
             android:layout_below="@id/textReply"
             android:layout_toRightOf="@id/drive"
             android:text="Send"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textColor="#ff9800"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="130dp"
             />
 

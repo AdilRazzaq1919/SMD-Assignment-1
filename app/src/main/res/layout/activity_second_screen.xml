@@ -54,6 +54,8 @@
         android:padding="15dp"/>
 
     <Button
+
+        android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#ff9800"
