@@ -13,7 +13,7 @@
         android:theme="@style/Theme.I201868"
         tools:targetApi="31">
         <activity
-            android:name=".FifteenScreen"
+            android:name=".SixteenScreen"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -21,16 +21,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".FourteenScreen"
+        </activity>        <activity
+            android:name=".FifteenScreen"
             android:exported="true"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".ThirteenScreen"
+            android:name=".FourteenScreen"
             android:exported="true"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ThirteenScreen"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TwelvethScreen"
             android:exported="true"
